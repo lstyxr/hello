@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+flask = {version = "*", index = "https://mirrors.aliyun.com/pypi/simple"}
+flask-sqlalchemy = {version = "*", index = "https://mirrors.aliyun.com/pypi/simple"}
+python-dotenv = {version = "*", index = "https://mirrors.aliyun.com/pypi/simple"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
