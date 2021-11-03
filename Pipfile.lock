@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "322fb9baad5ba89010cb6f3379ca18462e55cd009d43a2860a44dc03b701ef8f"
+            "sha256": "452cc8bd439a0bd674a6570af1069ad747e077664131265d4a0bc17879b57da3"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -16,6 +16,14 @@
         ]
     },
     "default": {
+        "bootstrap-flask": {
+            "hashes": [
+                "sha256:1c47a35b26b2ea2eaa0326b416c557aee77c7802f188055a8cfc4520a5cfdba2",
+                "sha256:74a333756e997f2bb7d2d39a080eb2d1b4fd9da225f6cd5b56f0488ae5fe48ed"
+            ],
+            "index": "https://mirrors.aliyun.com/pypi/simple",
+            "version": "==1.8.0"
+        },
         "click": {
             "hashes": [
                 "sha256:353f466495adaeb40b6b5f592f9f91cb22372351c84caeb068132442a4518ef3",
@@ -47,6 +55,14 @@
             ],
             "index": "https://mirrors.aliyun.com/pypi/simple",
             "version": "==2.5.1"
+        },
+        "flask-wtf": {
+            "hashes": [
+                "sha256:6ff7af73458f182180906a37a783e290bdc8a3817fe4ad17227563137ca285bf",
+                "sha256:ff177185f891302dc253437fe63081e7a46a4e99aca61dfe086fb23e54fff2dc"
+            ],
+            "index": "https://mirrors.aliyun.com/pypi/simple",
+            "version": "==0.15.1"
         },
         "greenlet": {
             "hashes": [
@@ -252,6 +268,13 @@
             ],
             "markers": "python_version >= '3.6'",
             "version": "==2.0.2"
+        },
+        "wtforms": {
+            "hashes": [
+                "sha256:7b504fc724d0d1d4d5d5c114e778ec88c37ea53144683e084215eed5155ada4c",
+                "sha256:81195de0ac94fbc8368abbaf9197b88c4f3ffd6c2719b5bf5fc9da744f3d829c"
+            ],
+            "version": "==2.3.3"
         }
     },
     "develop": {}

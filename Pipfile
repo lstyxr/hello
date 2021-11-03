@@ -7,6 +7,8 @@ name = "pypi"
 flask = {version = "*", index = "https://mirrors.aliyun.com/pypi/simple"}
 flask-sqlalchemy = {version = "*", index = "https://mirrors.aliyun.com/pypi/simple"}
 python-dotenv = {version = "*", index = "https://mirrors.aliyun.com/pypi/simple"}
+flask-wtf = {version = "*", index = "https://mirrors.aliyun.com/pypi/simple"}
+bootstrap-flask = {version = "*", index = "https://mirrors.aliyun.com/pypi/simple"}
 
 [dev-packages]
 
